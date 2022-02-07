@@ -5,54 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ürünler</title>
+    <link rel="stylesheet" href="CSS/style-sheet.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        </style>
 </head>
 <body>
-    <!-- Header Start -->
-    <img src="images/logo.jpg" alt="logo">
         <!-- NavBar Start-->
-        <ul>
-            <li>
-                <a href="index.html">Anasayfa</a>
-            </li>
-            <li>
-                <a href="products.html">Ürünlerimiz</a>
-            </li>
-            <li>
-                <a href="about-us.html">Hakkımızda</a>
-            </li>
-            <li>
-                <a href="contact.html">İletişim</a>
-            </li>
-        </ul>
+        <nav class="navbar">
+            <ul class="navbar-ul">
+                <li class="logo-li">
+                    <a href="index.html"><img src="images/logo.jpg" alt="logo" class="logo"></a>
+                </li>
+                <li class="navbar-li">
+                    <a href="contact.html">İletişim</a>
+                </li>
+                <li class="navbar-li">
+                    <a href="about-us.html">Hakkımızda</a>
+                </li>
+                <li class="navbar-li">
+                    <a href="products.html">Ürünlerimiz</a>
+                </li>
+                <li class="navbar-li">
+                    <a class="active" href="index.html">Anasayfa</a>
+                </li>
+            </ul>
+        </nav>
         <!-- NavBar End -->
 
     <!-- Header End -->
 
-
     <!-- Section Start -->
-    <section>
+    <section class="container">
         <!-- Article Start -->
         <article>
             <h1>Ürünlerimiz</h1>
         </article>
-        <article>
-            <img src="images/gitar.jpg" alt="gitar">
+        <article class="product">
+            <img src="images/gitar.jpg" alt="gitar" class="gitar">
             <p>Gitar&nbsp;&nbsp;&nbsp;&nbsp;₺750</p>
         </article>
-        <article>
-            <img src="images/bateri.jpg" alt="bateri">
+        <article class="product">
+            <img src="images/bateri.jpg" alt="bateri" class="bateri">
             <p>Bateri&nbsp;&nbsp;&nbsp;&nbsp;₺2500</p>
         </article>
-        <article>
-            <img src="images/piyano.jpg" alt="piyano">
+        <article class="product">
+            <img src="images/piyano.jpg" alt="piyano" class="piyano">
             <p>Piyano&nbsp;&nbsp;&nbsp;&nbsp;₺3500</p>
         </article>
-        <article>
-            <img src="images/çello.jpg" alt="çello">
+        <article class="product">
+            <img src="images/çello.jpg" alt="çello" class="cello">
             <p>Çello&nbsp;&nbsp;&nbsp;&nbsp;₺1500</p>
         </article>
-        <article>
-            <img src="images/harp.jpg" alt="arp">
+        <article class="product">
+            <img src="images/harp.jpg" alt="arp" class="arp">
             <p>Arp&nbsp;&nbsp;&nbsp;&nbsp;₺5000</p>
         </article>
         <!-- Article End -->
@@ -61,20 +67,22 @@
 
 
     <!-- Footer Start -->
-    <ul>
-        <li>
-            <a href="https://github.com/sametkeles06" target="_blank"><img src="images/github.svg" alt="github"></a>
-        </li>
-        <li>
-            <a href="https://www.linkedin.com/in/samet-kele%C5%9F-258595164" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="instagram"></a>
-        </li>
-        <li>
-            <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.svg" alt="twitter"></a>
-        </li>
-    </ul>
+    <div class="footer">
+        <ul>
+            <li class=>
+                <a href="https://github.com/sametkeles06" target="_blank"><img src="images/github.svg" alt="github"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/samet-kele%C5%9F-258595164" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.svg" alt="instagram"></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.svg" alt="twitter"></a>
+            </li>
+        </ul>
+    </div>
     <!-- Footer End -->
 </body>
 </html>

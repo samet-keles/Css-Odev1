@@ -1,0 +1,157 @@
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+}
+
+.navbar-li {
+    float: right;
+    /* margin: 0 30px; */
+    
+} 
+
+.navbar-li a {
+    display: block;
+    color: #EDEDED;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.navbar-li a:hover:not(.active) {
+
+    background-color: #171717;
+}
+
+.active {
+
+    background-color: #DA0037;
+}
+
+.logo {
+    width:75px;
+}
+
+.logo-li {
+    float: left;
+}
+
+.logo-li a {
+    display: block;
+}
+
+.navbar {
+    position: fixed; 
+    top:0px; 
+    left: 0px; 
+    right: 0px;
+    z-index: 999;
+} 
+
+.container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* .footer {
+    background-color:#444444;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+}
+.footer li {
+    float: right;
+    margin: 0 30px;
+} */
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #444444;
+}
+
+.footer li {
+    float: right;
+    margin: 0 40px;
+    
+} 
+
+.footer {
+    position: fixed; 
+    bottom:0px; 
+    left: 0px; 
+    right: 0px;
+    z-index: 999;
+} 
+
+.footer li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+.footer li a img {
+    width: 25px;
+}
+
+h1 {
+    font-size: 50px;
+    color:#DA0037;
+    font-family: 'Press Start 2P', cursive;
+}
+h3 {
+    color:#444444;
+    font-size: 20px;
+}
+p {
+    color:#171717;
+}
+
+.contact {
+    list-style-type:none;
+}
+
+.contact li a {
+    color:#171717;
+    text-decoration: none;
+}
+.email {
+    line-height: 50px;
+}
+.tel {
+    line-height: 25px;
+}
+
+.gitar {
+    width: 300px;
+}
+
+.bateri {
+    width: 300px;
+}
+
+.piyano {
+    width: 300px;
+}
+
+.cello {
+    width: 300px;
+}
+
+.arp {
+    width: 300px;
+    margin: 30 30px;
+}
+.product {
+    position: relative;
+    overflow: hidden;
+    
+}
